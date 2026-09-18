@@ -1,0 +1,6 @@
+# dsh-brake: 死循环刹车器（默认提醒模式；mode: deny 启用执行前拒绝）
+- insert:
+    - id: dsh-brake
+      name: dsh-brake
+      config:
+        mode: remind

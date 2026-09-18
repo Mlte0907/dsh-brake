@@ -1,0 +1,18 @@
+{
+  "name": "dsh-brake",
+  "version": "0.2.0",
+  "description": "DSH 死循环刹车器：检测重复调用、序列循环与重复文本上下文，默认提醒，可选执行前拒绝",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    }
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {}
+}
